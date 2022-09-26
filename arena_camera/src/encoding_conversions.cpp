@@ -35,6 +35,14 @@
 // Arena node
 #include <arena_camera/encoding_conversions.h>
 
+namespace sensor_msgs {
+  namespace image_encodings {
+    const std::string CONFIDENCE16 = "confidence16";
+    const std::string COORD3D_ABC16 = "coord3d_abc16";
+    const std::string COORD3D_ABCY16 = "coord3d_abcy16";
+  }
+}
+
 namespace arena_camera
 {
 namespace encoding_conversions
